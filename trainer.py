@@ -40,7 +40,6 @@ criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 
 
-
 def train():
     total_step = len(train_loader)
     for epoch in range(num_epochs):
